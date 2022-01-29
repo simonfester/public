@@ -5,7 +5,8 @@
         "interval": "1h",
         "fmt": "JSON",
         "time_format": "unix",
-        "name": "new_non_zero_count"
+        "name": "new_non_zero_count",
+	"columns": "time","data","asset"
     },
     "url2": {
         "url": "https://api.glassnode.com/v1/metrics/addresses/count",
@@ -13,7 +14,8 @@
         "interval": "1h",
         "fmt": "JSON",
         "time_format": "unix",
-        "name": "count"
+        "name": "count",
+	"columns": "time","data","asset"
     },
     "url3": {
         "url": "https://api.glassnode.com/v1/metrics/market/price_usd_close",
@@ -21,7 +23,8 @@
         "interval": "24h",
         "fmt": "JSON",
         "time_format": "unix",
-        "name": "price_usd_close"
+        "name": "price_usd_close",	
+	"columns": "time","data","asset"
     },
     "url5": {
         "url": "https://api.glassnode.com/v1/metrics/market/price_drawdown_relative",
@@ -29,6 +32,16 @@
         "interval": "24h",
         "fmt": "JSON",
         "time_format": "unix",
-        "name": "price_drawdown_relative"
+        "name": "price_drawdown_relative",
+	"columns": "time","data","asset"
+    },
+    "url6": {
+        "url": "https://api.glassnode.com/v1/metrics/market/price_usd_ohlc",
+        "asset": "BTC",
+        "interval": "24h",
+        "fmt": "JSON",
+        "time_format": "unix",
+        "name": "price_usd_ohlc",
+        "columns": "time","open","high","low","close"
     }
 }
