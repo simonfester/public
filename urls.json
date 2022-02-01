@@ -6,7 +6,7 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "new_non_zero_count",
-        "columns": [
+        "columns_name": [
             "time",
             "data",
             "asset"
@@ -24,7 +24,7 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "count",
-        "columns": [
+        "columns_name": [
             "time",
             "data",
             "asset"
@@ -42,7 +42,7 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "price_usd_close",
-        "columns": [
+        "columns_name": [
             "time",
             "data",
             "asset"
@@ -60,7 +60,7 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "price_drawdown_relative",
-        "columns": [
+        "columns_name": [
             "time",
             "data",
             "asset"
@@ -78,7 +78,7 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "price_usd_ohlc",
-        "columns": [
+        "columns_name": [
             "time",
             "open",
             "high",
