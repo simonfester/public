@@ -54,7 +54,7 @@
     "url6": {
         "url": "https://api.glassnode.com/v1/metrics/addresses/active_count",
         "asset": "BTC",
-        "interval": "24h",
+        "interval": "1h",
         "fmt": "JSON",
         "time_format": "unix",
         "name": "active_count",
@@ -67,7 +67,7 @@
     "url7": {
         "url": "https://api.glassnode.com/v1/metrics/transactions/transfers_volume_median",
         "asset": "BTC",
-        "interval": "24h",
+        "interval": "1h",
         "fmt": "JSON",
         "time_format": "unix",
         "name": "transfers_volume_median",
