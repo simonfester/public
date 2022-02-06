@@ -50,5 +50,31 @@
             "time",
             "data"
         ]
+    },
+    "url6": {
+        "url": "https://api.glassnode.com/v1/metrics/addresses/active_count",
+        "asset": "BTC",
+        "interval": "24h",
+        "fmt": "JSON",
+        "time_format": "unix",
+        "name": "active_count",
+        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)",
+        "columns": [
+            "time",
+            "data"
+        ]
+    },
+    "url7": {
+        "url": "https://api.glassnode.com/v1/metrics/transactions/transfers_volume_median",
+        "asset": "BTC",
+        "interval": "24h",
+        "fmt": "JSON",
+        "time_format": "unix",
+        "name": "transfers_volume_median",
+        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)",
+        "columns": [
+            "time",
+            "data"
+        ]
     }
 }
