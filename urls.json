@@ -38,7 +38,7 @@
             "data"
         ]
     },
-    "url5": {
+    "url4": {
         "url": "https://api.glassnode.com/v1/metrics/market/price_drawdown_relative",
         "asset": "BTC",
         "interval": "24h",
@@ -51,7 +51,7 @@
             "data"
         ]
     },
-    "url6": {
+    "url5": {
         "url": "https://api.glassnode.com/v1/metrics/addresses/active_count",
         "asset": "BTC",
         "interval": "1h",
@@ -64,7 +64,7 @@
             "data"
         ]
     },
-    "url7": {
+    "url6": {
         "url": "https://api.glassnode.com/v1/metrics/transactions/transfers_volume_median",
         "asset": "BTC",
         "interval": "1h",
