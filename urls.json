@@ -6,7 +6,11 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "new_non_zero_count",
-        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)"
+        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)",
+        "columns": [
+            "time",
+            "data"
+        ]
     },
     "url2": {
         "url": "https://api.glassnode.com/v1/metrics/addresses/count",
@@ -15,7 +19,11 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "count",
-        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)"
+        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)",
+        "columns": [
+            "time",
+            "data"
+        ]
     },
     "url3": {
         "url": "https://api.glassnode.com/v1/metrics/market/price_usd_close",
@@ -24,7 +32,11 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "price_usd_close",
-        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)"
+        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)",
+        "columns": [
+            "time",
+            "data"
+        ]
     },
     "url5": {
         "url": "https://api.glassnode.com/v1/metrics/market/price_drawdown_relative",
@@ -33,7 +45,11 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "price_drawdown_relative",
-        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)"
+        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, data DOUBLE PRECISION, asset CHAR (3)",
+        "columns": [
+            "time",
+            "data"
+        ]
     },
     "url6": {
         "url": "https://api.glassnode.com/v1/metrics/market/price_usd_ohlc",
@@ -42,6 +58,13 @@
         "fmt": "JSON",
         "time_format": "unix",
         "name": "price_usd_ohlc",
-        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, open DOUBLE PRECISION, high DOUBLE PRECISION,low DOUBLE PRECISION, close DOUBLE PRECISION"
+        "schema": "time TIMESTAMP WITH TIME ZONE NOT NULL, open DOUBLE PRECISION, high DOUBLE PRECISION,low DOUBLE PRECISION, close DOUBLE PRECISION",
+        "columns": [
+            "time",
+            "open",
+            "high",
+            "low",
+            "close"
+        ]
     }
 }
